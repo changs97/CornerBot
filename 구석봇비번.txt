@@ -1,0 +1,9 @@
+gnucsbot@gmail.com
+코너봇 비번: asd123123!
+
+* 구석봇 켜는 법!
+1. 로컬 D 드라이브로 이동
+2. CornerBot 폴더로 이동
+3. 우클릭 - 터미널 켜기
+4. python cornerbot3.py 실행
+5. 1234,외국인,졸업,구석방 단톡 켜두기
