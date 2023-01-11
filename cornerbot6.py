@@ -93,7 +93,7 @@ class CornerBot:
 
         self.joborigindata = set(self.formatting_data(jobinfo))
     
-    def checking_data(self, url): # 궁금한 점/문제 발견 checking_data() 본문에서 1.try에서 에러가 발생한 후 utility.kakao_send_error 메서드가 없음 2. 예외가 발생해서 except 수행 후 그 아래 코드를 수행할 때 문제 발생하지 않는지? croll_data.select 부분
+    def checking_data(self, url):
         try:
             croll_data = self.get_crawl_data(url)
         except:
